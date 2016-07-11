@@ -8,7 +8,7 @@
 }
 
 .task-item:not(.is-done) .btn_done {
-	opacity: .6;
+	opacity: .4;
 }
 
 .task-item:not(.is-done) .btn_done:hover {
