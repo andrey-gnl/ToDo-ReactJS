@@ -14,6 +14,7 @@ var MainContainer = React.createClass({
 
 	handlerAdd: function() {
 		var textInput = document.querySelector('.js-task-text');
+		if(textInput.value === '') return false;
 		var object = {
 			text: textInput.value,
 			isDone: false
