@@ -1,0 +1,16 @@
+* {
+	outline: none !important;
+}
+
+.task-item.is-done h4{
+	text-decoration: line-through;
+	opacity: .7;
+}
+
+.task-item:not(.is-done) .btn_done {
+	opacity: .6;
+}
+
+.task-item:not(.is-done) .btn_done:hover {
+	opacity: 1;
+}
