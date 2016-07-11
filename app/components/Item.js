@@ -9,10 +9,10 @@ function Item(props) {
 	return (
 			<div className={itemClass} data-id={props.id}>
 				<div className="row">
-					<div className="col-xs-9" style={{display: 'inline-block', verticalAlign: 'middle', float: 'none'}}>
+					<div className="col-sm-9 col-xs-7" style={{display: 'inline-block', verticalAlign: 'middle', float: 'none'}}>
 						<h4>{props.text}</h4>
 					</div>
-					<div className="col-xs-3" style={{display: 'inline-block', verticalAlign: 'middle', float: 'none'}}><div className="btn-group" style={{float: 'right'}}>
+					<div className="col-sm-3 col-xs-5" style={{display: 'inline-block', verticalAlign: 'middle', float: 'none'}}><div className="btn-group" style={{float: 'right'}}>
 						<button type="button" className="btn btn-default glyphicon glyphicon-remove"  onClick={props.onRemove}></button>
 						<button type="button" className="btn btn-default btn_done glyphicon glyphicon-ok"  onClick={props.onDone}></button>
 					</div></div>
